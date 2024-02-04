@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  /* background: #ffffff; */
+  gap: 5px;
+}
+.sidebar {
+  flex: 1;
+  background: red;
+}
+.others {
+  flex: 3;
+  background: blue;
+}
