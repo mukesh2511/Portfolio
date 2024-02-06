@@ -4,10 +4,11 @@
   box-sizing: border-box;
 }
 .app {
+  background: #f5f5f5;
   min-height: 100vh;
   min-width: 100vw;
   display: flex;
-  /* background: #ffffff; */
+
   gap: 5px;
 }
 .sidebar {
@@ -16,5 +17,5 @@
 }
 .others {
   flex: 3;
-  background: blue;
+  /* background: blue; */
 }

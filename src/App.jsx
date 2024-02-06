@@ -19,7 +19,6 @@ const App = () => {
         <div className="others">
           <Navbar />
           <Outlet />
-          <Footer />
         </div>
       </div>
     );
