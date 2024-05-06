@@ -4,18 +4,23 @@
   box-sizing: border-box;
 }
 .app {
-  background: #f5f5f5;
   min-height: 100vh;
   min-width: 100vw;
   display: flex;
-
   gap: 5px;
 }
 .sidebar {
+  background: #ffffff;
   flex: 1;
-  background: red;
+  max-width: 444px;
+  height: fit-content;
+  max-height: 100vh;
+  position: sticky;
+  top: 0;
 }
 .others {
   flex: 3;
-  /* background: blue; */
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }

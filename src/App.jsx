@@ -7,7 +7,7 @@ import Portfolio from "./pages/Portfolio/Portfolio.jsx";
 import Resume from "./pages/Resume/Resume.jsx";
 import Contact from "./pages/Contact/Contact.jsx";
 import "./App.css";
-import SideBar from "./components/SIdeBar/SIdeBar.jsx";
+import SideBar from "./components/SIdeBar/SideBar.jsx";
 
 const App = () => {
   const Layout = () => {

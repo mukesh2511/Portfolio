@@ -1,0 +1,55 @@
+.portfolio {
+  width: 100%;
+
+  .container {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    .heading {
+      display: flex;
+      position: relative;
+      h2 {
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 36px;
+        z-index: 40;
+      }
+      span {
+        width: 112px;
+        height: 15px;
+        background: #ffecbd;
+        position: absolute;
+        top: 25px;
+      }
+    }
+    .bar {
+      display: flex;
+      align-items: center;
+      gap: 50px;
+
+      p {
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        cursor: pointer;
+      }
+      .active {
+        color: #ffb800;
+      }
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      transition: 2s all ease-in-out;
+    }
+
+    // .wrapper{
+
+    // }
+  }
+}
