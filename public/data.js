@@ -47,7 +47,7 @@ const projectData = [
     img: "https://github.com/mukesh2511/BookingAppClient/raw/master/screenshots/home.png?raw=true",
     gitHubLink: "https://github.com/mukesh2511/BookingAppClient",
     host: "mybookingclient.onrender.com",
-    type: ["REACT", "NODE"],
+    type: ["REACT", "NODE", "TAILWIND"],
   },
   {
     id: 6,
